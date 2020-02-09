@@ -1,0 +1,23 @@
+# conda env create -f environment.yml
+name: spatial
+channels:
+- conda-forge
+dependencies:
+- python=3.7
+- jupyter
+- RISE
+- geopandas
+- pandas=0.25.0
+- shapely=1.6.4
+- fiona=1.8.6
+- pyproj=1.9.6
+- rtree=0.8.3
+- six=1.12.0
+- geopy=1.20.0
+- matplotlib=3.1.1
+- descartes=1.1.0
+- mplleaflet
+- folium
+- earthengine-api
+- plotly
+- esri::arcgis
